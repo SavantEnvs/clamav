@@ -1,0 +1,9 @@
+# BuildKit prefers this over upstream's root .dockerignore (which drops examples/, win32/, INSTALL*,
+# Jenkinsfile) so the image holds the FULL repo, including .git history.
+build/
+*.o
+*.a
+**/__pycache__/
+.DS_Store
+*.swp
+*~

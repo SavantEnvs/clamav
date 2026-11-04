@@ -1,0 +1,5 @@
+project: savantenvs/clamav
+target: clamav_scanmap_HWP3_fuzzer
+cmds:
+  - cmd: /mayhem/clamav_scanmap_HWP3_fuzzer
+    libfuzzer: true

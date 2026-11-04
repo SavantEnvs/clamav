@@ -1,0 +1,5 @@
+project: savantenvs/clamav
+target: clamav_dbload_IDB_fuzzer
+cmds:
+  - cmd: /mayhem/clamav_dbload_IDB_fuzzer
+    libfuzzer: true

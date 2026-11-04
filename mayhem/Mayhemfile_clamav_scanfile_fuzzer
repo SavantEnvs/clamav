@@ -1,0 +1,5 @@
+project: savantenvs/clamav
+target: clamav_scanfile_fuzzer
+cmds:
+  - cmd: /mayhem/clamav_scanfile_fuzzer
+    libfuzzer: true
